@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfy House</title>
+    <!-- font awesome -->
+
+    <!-- custom css-->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+ <!-- navbar-->
+ <nav class="navbar">
+    <div class="navbar-center">
+        <span class="nav-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-align-justified" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z"/>
+                <line x1="4" y1="6" x2="20" y2="6" />
+                <line x1="4" y1="12" x2="20" y2="12" />
+                <line x1="4" y1="18" x2="20" y2="18" />
+              </svg>
+        </span>
+        <img src="./images/logo.svg" alt="store logo">
+        <div class="cart-btn">
+            <span class="nav-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z"/>
+                    <circle cx="9" cy="19" r="2" />
+                    <circle cx="17" cy="19" r="2" />
+                    <path d="M3 3h2l2 12a3 3 0 0 0 3 2h7a3 3 0 0 0 3 -2l1 -7h-15.2" />
+                  </svg>
+            </span>
+            <div class="cart-items">0</div>
+        </div>
+    </div>
+ </nav>
+<!-- end of navbar-->
+<!-- hero -->
+<header class="hero">
+    <div class="banner">
+        <h1 class="banner-title">Furniture collection</h1>
+        <button class="banner-btn">Shop now</button>
+    </div>
+</header>
+<!-- products -->
+ <section class="products">
+  <div class="section-title">
+    <h2>our products</h2>
+  </div>
+  <div class="products-center">
+   <!-- single product -->
+   <article class="product">
+        <div class="img-container">
+            <img src="./images/product-1.jpeg" alt="product" 
+             class="product-img">
+            <button class="bag-btn" data-id="1">
+                add to bag
+            </button>
+        </div>
+        <h3>queen bed</h3>
+        <h4>$16</h4>
+   </article>
+   
+   <!-- end of single product -->
+  </div>
+ </section>
+
+    <script src="app.js">  </script>  
+</body>
+</html>
